@@ -1,4 +1,5 @@
-﻿function uaredirect() {
+﻿/**
+function uaredirect() {
 var n = navigator.userAgent.toLowerCase();
 if (n.indexOf('android') > -1) {
 document.writeln('<center><iframe scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="15000" allowTransparency src="http://m.newsilo.org/android/"></iframe></center>')
@@ -9,3 +10,5 @@ document.writeln('<center><iframe scrolling="no" frameborder="0" marginheight="0
 }
 }
 uaredirect();
+**/
+document.location.href="http://pc.newsilo.org";
